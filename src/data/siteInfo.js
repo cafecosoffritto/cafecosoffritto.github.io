@@ -10,8 +10,7 @@ export const site = {
   tadameshiUrl: 'https://sites.google.com/view/cafecosoffritto-tadameshi/',
 };
 export const pages = [
-  { path: '', nav: 'HOME', title: 'Cafe co Soffritto｜カフェ コッソリ｜船橋のベジカフェ',
-    desc: 'Cafe co Soffritto（カフェ コッソリ）は、心がほどける、身体にも社会にもやさしいカフェ。ベジごはんやおやつ、ラテアートなどを楽しみながら、誰もが心地よく過ごせる場所を目指しています。' },
+  { path: '', nav: 'HOME', title: 'カフェコッソリ｜船橋市高根台のヴィーガンカフェ', desc: '千葉県船橋市高根台のカフェコッソリ（Cafe co Soffritto）。ヴィーガン・小麦粉不使用の焼き菓子や、大豆ミートのお食事、ラテアートを楽しめるカフェ。誰もが自分らしく過ごせる場所を目指しています。' },
   { path: 'about', nav: 'ABOUT', h1: 'ABOUT｜コッソリについて', title: 'Cafe co Soffrittoについて｜カフェ コッソリ', desc: 'Cafe co Soffritto（カフェ コッソリ）について。お店に込めた想いとスタッフのご紹介。' },
   { path: 'menu', nav: 'MENU', h1: 'MENU｜メニュー', title: 'Cafe co Soffritto メニュー｜フード・スイーツ・ドリンク', desc: 'Cafe co Soffrittoのフード・スイーツ・ドリンク・季節限定メニューのご案内。' },
   { path: 'tadameshi', nav: '毎日タダ飯', h1: '毎日タダ飯', title: '毎日タダ飯｜Cafe co Soffritto', desc: 'Cafe co Soffrittoの「毎日タダ飯」の取り組みと、応援の方法のご案内。' },
