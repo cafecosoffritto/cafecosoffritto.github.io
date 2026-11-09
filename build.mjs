@@ -183,6 +183,7 @@ for (const p of pages) {
 }
 cpSync('src/images', 'dist/images', { recursive: true });
 cpSync('src/assets', 'dist/assets', { recursive: true });
+cpSync('src/googlee7d645d8fd6447f3.html', 'dist/googlee7d645d8fd6447f3.html');
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 const walk = (d) => readdirSync(d).flatMap((f) => (statSync(`${d}/${f}`).isDirectory() ? walk(`${d}/${f}`) : [`${d}/${f}`]));
 for (const f of walk('dist').filter((x) => x.endsWith('.html'))) if (readFileSync(f, 'utf8').includes('[ここに')) throw new Error('未入力プレースホルダーが公開ページに残っています: ' + f);
