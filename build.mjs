@@ -187,7 +187,7 @@ cpSync('src/googlee7d645d8fd6447f3.html', 'dist/googlee7d645d8fd6447f3.html');
 const baseUrl = 'https://cafecosoffritto.github.io/';
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${pages.map((p) => `  <url><loc>${baseUrl}${p.path ? `${p.path}/` : ''}</loc></url>`).join('\n')}
+${pages.map((p) => `  <url><loc>${baseUrl}${p.path ? `${p.path}/` : ''}</loc></url>`).join('')}
 </urlset>`;
 writeFileSync('dist/sitemap.xml', sitemap);
   
